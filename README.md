@@ -13,10 +13,11 @@ The goal is to build an NPC chatbot capable of generating **immersive, lore-cons
 ## **📜 Table of Contents**
 
 1. [Models](#models)
-2. [Training](#training)
-3. [Results](#results)
-4. [Contributing](#contributing)
-5. [License](#license)
+2. [Dataset](#dataset)
+3. [Training](#training)
+4. [Results](#results)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ---
 
@@ -43,6 +44,29 @@ This model uses the **DistilGPT2** transformer architecture. Fine-tuned specific
 - **DistilGPT2 Decoder**: Processes input using self-attention mechanisms.
 - **Fine-Tuning**: Adaptation to Skyrim dialogue.
 - **Output Layer**: Generates predictions for the next word in the sequence.
+
+---
+
+## **📚 Dataset**
+
+### **📝 Dataset Creation:**
+The dataset was **generated using an AI model** designed to replicate the **conversational style** and **narrative tone** of **Skyrim NPCs**. Initially, the dataset consisted of **7,565 unique dialogue interactions**, but through the use of **data augmentation techniques**, it was expanded to over **50,000** dialogue interactions. These techniques introduced **conversational variations**, ensuring a broader coverage of topics such as **quests**, **lore**, and **world-building**.
+
+### **📜 Dataset Details:**
+- **Size**: The dataset contains **50,000+ dialogue interactions** sourced from Skyrim's vast in-game dialogues.
+- **Content**: It includes a variety of conversational themes such as:
+  - **Main Quests** 🏰
+  - **Side Quests** 🛡️
+  - **Character Interactions** ⚔️
+  - **Lore and World-building** 📚
+  - **Random NPC Dialogue** 🤖
+
+### **🔍 Dataset Generation:**
+1. **Extraction**: We collected raw dialogues from Skyrim using **text parsing** and **data scraping techniques**.
+2. **Augmentation**: The dataset was expanded through **data augmentation**, which introduced variations to the dialogues, ensuring a more robust dataset that reflects the wide range of conversations in the game.
+3. **Guidance**: The dataset was primarily guided by content from the **imperial.json file**, which contains Skyrim’s core lore, ensuring the chatbot’s responses remain **contextually and thematically accurate**.
+4. **Formatting**: Each dialogue was formatted into **question-answer pairs**, allowing the model to learn proper conversational flow.
+5. **Annotation**: NPC responses were **tagged** to reflect character-specific speech patterns, ensuring the chatbot accurately mimics each NPC’s **voice** and **mannerisms**.
 
 ---
 
