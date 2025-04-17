@@ -12,8 +12,8 @@ The goal is to build an NPC chatbot capable of generating **immersive, lore-cons
 
 ## **📜 Table of Contents**
 
-1. [Models](#models)
-2. [Dataset](#dataset)
+1. [Models](#Models)
+2. [Dataset](#Dataset)
 3. [Training](#training)
 4. [Results](#results)
 5. [Contributing](#contributing)
