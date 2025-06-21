@@ -11,7 +11,7 @@ The goal is to build an NPC chatbot capable of generating **immersive, lore-cons
 ---
  Demo
  
-![Skyrim BiLSTM](demo/yolov5_fire_demo.gif)  
+![Skyrim BiLSTM](demo/demo.png)  
 
 
 ## **📜 Table of Contents**
