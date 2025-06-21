@@ -9,6 +9,10 @@ This project presents a **machine learning-based NPC (Non-Player Character) chat
 The goal is to build an NPC chatbot capable of generating **immersive, lore-consistent** dialogue in Skyrim's unique conversational style, leveraging advanced **natural language processing (NLP)** techniques.
 
 ---
+ Demo
+ 
+![Skyrim BiLSTM](demo/yolov5_fire_demo.gif)  
+
 
 ## **📜 Table of Contents**
 
