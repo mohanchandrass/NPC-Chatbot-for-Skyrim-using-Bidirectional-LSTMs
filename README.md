@@ -21,7 +21,7 @@ The goal is to build an NPC chatbot capable of generating **immersive, lore-cons
 
 ---
 
-## **⚔️ Models**
+## Models
 
 ### **🧙‍♂️ Model 1: Baseline BiLSTM (Learned Embeddings)**
 This model processes input dialogue and generates responses using a **BiLSTM architecture**. The BiLSTM model captures contextual relationships by processing the input sequence in both forward and backward directions.
@@ -47,7 +47,7 @@ This model uses the **DistilGPT2** transformer architecture. Fine-tuned specific
 
 ---
 
-## **📚 Dataset**
+## Dataset
 
 ### **📝 Dataset Creation:**
 The dataset was **generated using an AI model** designed to replicate the **conversational style** and **narrative tone** of **Skyrim NPCs**. Initially, the dataset consisted of **7,565 unique dialogue interactions**, but through the use of **data augmentation techniques**, it was expanded to over **50,000** dialogue interactions. These techniques introduced **conversational variations**, ensuring a broader coverage of topics such as **quests**, **lore**, and **world-building**.
@@ -70,7 +70,7 @@ The dataset was **generated using an AI model** designed to replicate the **conv
 
 ---
 
-## **⚙️ Training**
+## Training
 
 The models were trained on a **custom dataset** designed to replicate **Skyrim NPC dialogues**. The dataset contains over **50,000 dialogue interactions**, enriched with various conversational styles covering quests, lore, and world-building.
 
@@ -84,7 +84,7 @@ The models were trained on a **custom dataset** designed to replicate **Skyrim N
 
 ---
 
-## **🏆 Results**
+## Results
 
 ### **🎯 Model Performance:**
 
@@ -117,7 +117,7 @@ The models were evaluated on their ability to generate **thematic and contextual
 
 ---
 
-## **🛡️ Contributing**
+## Contributing
 
 We welcome contributions to improve this project! If you'd like to contribute, please **fork the repository** and submit a pull request with your improvements. We are particularly interested in:
 
@@ -127,7 +127,7 @@ We welcome contributions to improve this project! If you'd like to contribute, p
 
 ---
 
-## **📜 License**
+## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
