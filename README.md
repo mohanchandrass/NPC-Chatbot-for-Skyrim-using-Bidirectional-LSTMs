@@ -126,7 +126,7 @@ The models were evaluated on their ability to generate **thematic and contextual
 We welcome contributions to improve this project! If you'd like to contribute, please **fork the repository** and submit a pull request with your improvements. We are particularly interested in:
 
 - Extending the dataset with more **Skyrim lore** and dialogues 📚.
-- Optimizing model architectures for **faster inference** ⚡.
+- Optimizing model architectures for **faster inference** .
 - Exploring integration with **game engines** like **Unity** or **Unreal Engine** 🎮.
 
 ---
